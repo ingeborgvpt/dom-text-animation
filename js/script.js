@@ -1,3 +1,4 @@
+"use strict";
 // Husk fra dag 2: skriv "use strict" herunder
 
 
