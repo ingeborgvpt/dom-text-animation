@@ -13,7 +13,7 @@ const getZoomBtn = document.getElementById("zoomBtn");
 // Eksempel: vi lytter efter klik på knappen og kører en anonym function, når der klikkes - ligesom i billedskift-opgaven
 getZoomBtn.addEventListener("click", function() {
 
-if (this.textContent = `Zoom ind`) {
+if (this.textContent === `Zoom ind`) {
     getWordElem.style.fontSize = `6rem`;
     this.textContent = `Zoom ud`;
 } else {
